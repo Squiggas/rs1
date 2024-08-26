@@ -7,32 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Calculadora de Receta de Tortillas</h1>
-    <div class="calculator">
-        <h2>Inventario Existente</h2>
-        <label for="kg_chicas">Paquetes de 1 kg de tortillas chicas:</label>
-        <input type="number" id="kg_chicas" placeholder="Cantidad"><br>
+    <div class="container">
+        <h1>Calculadora de Receta de Tortillas</h1>
+        <div class="calculator">
+            <h2>Inventario Existente</h2>
+            <label for="kg_chicas">Paquetes de 1 kg de tortillas chicas:</label>
+            <input type="number" id="kg_chicas" placeholder="Cantidad"><br>
 
-        <label for="doce_chicas">Paquetes de 12 tortillas chicas:</label>
-        <input type="number" id="doce_chicas" placeholder="Cantidad"><br>
+            <label for="doce_chicas">Paquetes de 12 tortillas chicas:</label>
+            <input type="number" id="doce_chicas" placeholder="Cantidad"><br>
 
-        <label for="kg_grandes">Paquetes de 1 kg de tortillas grandes:</label>
-        <input type="number" id="kg_grandes" placeholder="Cantidad"><br>
+            <label for="kg_grandes">Paquetes de 1 kg de tortillas grandes:</label>
+            <input type="number" id="kg_grandes" placeholder="Cantidad"><br>
 
-        <label for="diez_grandes">Paquetes de 10 tortillas grandes:</label>
-        <input type="number" id="diez_grandes" placeholder="Cantidad"><br>
+            <label for="diez_grandes">Paquetes de 10 tortillas grandes:</label>
+            <input type="number" id="diez_grandes" placeholder="Cantidad"><br>
 
-        <h2>Pedidos del Día</h2>
-        <label for="pedidos_chicas">Paquetes de tortillas chicas solicitados:</label>
-        <input type="number" id="pedidos_chicas" placeholder="Cantidad"><br>
+            <h2>Pedidos del Día</h2>
+            <label for="pedidos_chicas">Paquetes de tortillas chicas solicitados:</label>
+            <input type="number" id="pedidos_chicas" placeholder="Cantidad"><br>
 
-        <label for="pedidos_grandes">Paquetes de tortillas grandes solicitados:</label>
-        <input type="number" id="pedidos_grandes" placeholder="Cantidad"><br>
+            <label for="pedidos_grandes">Paquetes de tortillas grandes solicitados:</label>
+            <input type="number" id="pedidos_grandes" placeholder="Cantidad"><br>
 
-        <button onclick="calcularReceta()">Calcular Receta</button>
+            <button onclick="calcularReceta()">Calcular Receta</button>
 
-        <h2>Receta del Día</h2>
-        <div id="resultado"></div>
+            <h2>Receta del Día</h2>
+            <div id="resultado"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
